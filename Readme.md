@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_HidingContextMenuItems/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to Hide Context Menu Items
