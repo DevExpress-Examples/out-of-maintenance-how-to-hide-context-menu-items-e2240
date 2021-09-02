@@ -1,4 +1,4 @@
-<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
+﻿<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
         x:Class="DXPivotGrid_HidingContextMenuItems.MainWindow"
@@ -24,9 +24,12 @@
                                      Area="DataArea" CellFormat="c0" />
             </dxpg:PivotGridControl.Fields>
             <dxpg:PivotGridControl.HeaderMenuCustomizations>
-                <dxb:RemoveBarItemAndLinkAction ItemName="{x:Static dxpg:DefaultMenuItemNames.ShowPrefilter}" />
-                <dxb:RemoveBarItemAndLinkAction ItemName="{x:Static dxpg:DefaultMenuItemNames.ShowFieldList}" />
-                <dxb:RemoveBarItemAndLinkAction ItemName="{x:Static dxpg:DefaultMenuItemNames.RefreshData}" />
+                <dxb:RemoveBarItemAndLinkAction 
+                    ItemName="{x:Static dxpg:DefaultMenuItemNames.ShowPrefilter}" />
+                <dxb:RemoveBarItemAndLinkAction 
+                    ItemName="{x:Static dxpg:DefaultMenuItemNames.ShowFieldList}" />
+                <dxb:RemoveBarItemAndLinkAction 
+                    ItemName="{x:Static dxpg:DefaultMenuItemNames.RefreshData}" />
             </dxpg:PivotGridControl.HeaderMenuCustomizations>
         </dxpg:PivotGridControl>
     </Grid>
